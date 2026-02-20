@@ -1,0 +1,16 @@
+/* Bootstrap Icons fallback using Unicode characters */
+.bi::before {
+  display: inline-block;
+  font-family: "bootstrap-icons";
+}
+
+.bi-search::before { content: "🔍"; }
+.bi-plus::before { content: "+"; }
+.bi-arrow-left::before { content: "←"; }
+.bi-arrow-up::before { content: "↑"; }
+.bi-arrow-down::before { content: "↓"; }
+.bi-arrow-up-down::before { content: "⇅"; }
+.bi-chevron-down::before { content: "⌄"; }
+.bi-info-circle::before { content: "ⓘ"; }
+.bi-pencil::before { content: "✎"; }
+.bi-trash::before { content: "🗑"; }

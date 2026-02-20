@@ -1,0 +1,36 @@
+{
+  "name": "inspection-app",
+  "version": "1.0.0",
+  "description": "Inspection Management Application - Take Home Test Frontend Developer",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vuex": "^4.1.0",
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.3",
+    "@popperjs/core": "^2.11.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/test-utils": "^2.4.6",
+    "vite": "^5.1.6",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "@babel/core": "^7.24.1",
+    "@babel/preset-env": "^7.24.1",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "@vue/vue3-jest": "^29.2.6"
+  }
+}
